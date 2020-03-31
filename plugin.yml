@@ -1,0 +1,13 @@
+﻿name: AisHungry
+author: AisS2
+main: AisH\Main
+api: 3.0.0
+version: 1.0.0
+commands:
+  밥:
+    aliases: ["배고픔", "고기"]
+    permission: Hungry.command
+    description: 배고픔을 채워줍니다.
+permissions:
+          Hungry.command:
+            default: true
